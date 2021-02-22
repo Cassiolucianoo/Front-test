@@ -1,0 +1,40 @@
+/*-----------------------------------------------------------------------------*/
+.header {
+    min-height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, #4dd2d2, #092331);
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  }
+  
+  .logo {
+    display: inline-block;
+  }
+  
+  .logoimg {
+    height: 60px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logoimg {
+      height: 40px;
+    }
+  }
+
+/*-----------------------------------------------------------------------------*/
+
+
+
+
