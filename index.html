@@ -1,23 +1,77 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-<link rel="stylesheet" href="css/style.css">
-<head class>
+
+<head>
 
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <title>Commcepta</title>
 
 </head>
+
 <body>
     <header class="header">
 
-        <div class="container DEF-container"></div>
-        <a href="/" class="logo">
-            <img src="img/logo.png" alt="Logo da space box" class="logoimg">
-          </a>
+        <div class="container DEF-container">
+
+            <a href="/" class="logo">
+                <img src="img/logo.png" alt="Logo da space box" class="logoimg">
+            </a>
+            <nav class="header__nav">
+                <ul class="navlist">
+                    <li class="navitem">
+                        <a href="#" class="navitemlink">Empresa</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#" class="navitemlink">Serviço</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#" class="navitemlink">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
-    
+
+    <main class="main">
+        <div class="main-container DEF-container">
+
+            <div class="select-person">
+                <div class="userimg">
+                    <img id="selectPhoto" src="" alt="" class="person-img">
+                </div>
+                <ul class="personinfo">
+                    <li class="personinfo__field">
+                        <span id="NameLabel" class="personinfo_label">nome:</span>
+                        <span id="NameData" class="personinfo_data"></span>
+                    </li>
+                    <li class="personinfo_field">
+                        <span id="RoleLabel" class="personinfo_label">cargo:</span>
+                        <span id="RoleData" class="personinfo_data"></span>
+                    </li>
+                    <li class="personinfo_field">
+                        <span id="AgeLabel" class="personinfo_label">idade:</span>
+                        <span id="AgeData" class="personinfo_data"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="mainUsers" class="main-users">
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
 </body>
 
 </html>
